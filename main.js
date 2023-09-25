@@ -29,19 +29,19 @@ while (cantidad != 0){
     switch (tipoCafe){
         case "A":
            resultado = multiplicar(cafeGrano, cantidad);
-           alert("Debe abonar $ "+ resultado + " por su compra de alimento marca A");
+           alert("Debe abonar $ "+ resultado + " por su compra de cafe marca A");
            break;
         case "B":
             resultado = multiplicar(cafeMolido, cantidad);
-            alert("Debe abonar $ "+ resultado + " por su compra de alimento marca B");
+            alert("Debe abonar $ "+ resultado + " por su compra de cafe marca B");
             break;
         case "C":
             resultado = multiplicar(cafeDescafeinado, cantidad);
-            alert("Debe abonar $ "+ resultado+ " por su compra de alimento marca C");
+            alert("Debe abonar $ "+ resultado+ " por su compra de cafe marca C");
             break;
         case "D":
             resultado = multiplicar(cafeEspecial, cantidad);
-            alert("Debe abonar $ "+ resultado + " por su compra de alimento marca A");
+            alert("Debe abonar $ "+ resultado + " por su compra de cafe marca D");
             break;    
         default:
             alert("Operacion Invalida");
